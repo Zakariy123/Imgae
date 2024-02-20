@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style ></style>
+    <style>
+        /* table, th, td {
+          border:1px solid orange;
+        } */
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hormuud.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="Hormuud">
+
+        <div class="image">
+              <img src="data:image/png;base64,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" alt="">
+        </div>
+
+        <div class="ul">
+            <ul>
+                <li> Home </li>
+                <li>Personal</li>
+                <li>Business</li>
+                <li>Who we are </li>
+                <li>Media</li>
+                <li>Connect use</li>
+                <button>search</button>
+            </ul>
+            
+        </div>
+    </div>
+   
+    <div class="HTS">
+        <div class="T">
+            <h1> Zakaria Abdinuur Mohamed  </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque tenetur   <br>fuga sit harum tempore molestias nisi tempora debitis nobis ex consequatur?</p>
+        </div>
+        <div class="So">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFxln7i3p3dvaLousPAdiBJ6ahA4RGkxrhg&usqp=CAU" alt="">
+        </div>
+    </div>
+
+<div class="box">
+
+
+</div>
+
+<div class="flex gap-10">
+    <div>
+        <img class="w-[600px] h-[400px] mt-10 border-2 pl-10"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjFxln7i3p3dvaLousPAdiBJ6ahA4RGkxrhg&usqp=CAU" aslt=""> 
+    </div>
+    <div>
+        <p class="mt-40 text-3xl tex-blue-500">Lorem ipsum dolor sit amet consecteturs adipisicing elit.  Voluptate  <br>recusandae totam consectetur aperiam aliquam vel ea soluta </p>
+        <br>
+        <button class="px-5 py-5  mt-10 bg-green-500 tex-white pl-10">GET STARTED NEW</button>
+    </div>
+</div>
+
+<div class="justify-center">
+    <div>
+        <h1 class=" text-3xl  mt-20 pl-40">Our customers’ favourite personal products
+        </h1>
+    </div>
+   <div>
+    <p class="pl-40 text-2xl tex-blue-500" >Here are some of our customers’ favorite personal products & services</p>
+   </div>
+   
+</div>
+
+<div class="flex gap-10 mt-10 pl-10">
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500 bg-green-500 " >
+        <div class="flex">
+            <i  class="fa-solid fa-phone pl-10 mt-10 text-4xl"></i>
+            <h1 class="text-3xl tex-blue-500 pl-10  mt-10">  voice </h1>
+        </div>
+       
+
+    </div>
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500 bg-green-500  " > 
+        <div class="flex">
+            <i class="fa-solid fa-folder pl-10 mt-10 text-4xl "></i>
+            <h1 class="text-3xl tex-blue-500 pl-10 mt-10   ">  SMS </h1>
+        </div>
+       
+    </div>
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500 bg-green-500" >
+        <div class="flex">
+            <i class="fa-solid fa-envelope pl-10 mt-10 text-4xl"></i> 
+            <h1 class="text-3xl tex-blue-500 pl-10  mt-10">  EVC Plas </h1>
+        </div>
+       
+    </div>
+
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500  bg-green-500" > 
+        <div class="flex">
+            <i class="fa-solid fa-wifi mt-10 pl-10 text-4xl"></i>
+            <h1 class="text-3xl tex-blue-500 pl-10 mt-10">  4 Internet </h1>
+        </div>
+        
+    </div>
+</div>
+
+
+<div class="flex gap-10 mt-10 pl-10">
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500 bg-green-500" >
+        <div class="flex">
+            <i  class="fa-solid fa-phone pl-10 mt-10 text-4xl"></i>
+            <h1 class="text-3xl tex-blue-500 pl-10  mt-10">  Broadband </h1>
+        </div>
+       
+
+    </div>
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500  bg-green-500 " > 
+        <div class="flex">
+            <i class="fa-solid fa-folder pl-10 mt-10 text-4xl"></i>
+            <h1 class="text-3xl tex-blue-500 pl-10  mt-5">  Dalmar Raning </h1>
+        </div>
+      
+    </div>
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500 bg-green-500" >
+        <div class="flex text-4xl">
+            <i class="fa-solid fa-envelope pl-10 mt-10"></i> 
+            <h1 class="text-3xl tex-blue-500 pl-10 mt-5 ">  Anfac Package </h1>
+        </div>
+       
+    </div>
+
+    <div  class=" w-[300px] h-[100px]  border-2 border-green-500  bg-green-500 " > 
+        <div class="flex">
+            <i class="fa-solid fa-wifi mt-10 pl-10 text-4xl bg-red-500 "></i>
+            <h1 class="text-3xl tex-blue-500 pl-10  mt-5">  Anfac plas </h1>
+        </div>
+    
+    </div>
+</div>
+
+<div class="mt-20 pl-10">
+    <h1 class="text-4xl tex-blue-500 pl-16 text-center">Our customers’ favourite business products
+    </h1>
+    <br>
+    <p class=" pl-16 text-center text-2xl font-awesome">Grow you business and engage your customers through SMS marketing, fully integrated into your business system
+
+    </p>
+</div>
+
+<div class="flex gap-10 mt-10 pl-10">
+
+<div class="w-[300px] h-[300px] bg-green-500 rounded-xl">
+    <i    class="fa-solid fa-comment-sms text-4xl text-white text-center pl-10 mt-10"></i>
+    <h1 class="text-white text-2xl pl-10">My SMS API</h1>
+    <p class="text-white pl-6">
+        Empower your organization to build and deliver marketing sms while integrating and collaborating with our messaging api.
+        
+        </p>
+</div>
+
+<div class="w-[300px] h-[300px] bg-blue-500 rounded-xl">
+    <i class="fa-solid fa-globe text-4xl text-white text-center pl-10 mt-10"></i>
+    <h1 class="text-white text-2xl pl-10">Enterprise Internet</h1>
+    <p class="text-white pl-6">
+        Lightning-fast, secure and reliable enterprise internet connections for large institutions and organizations</p>
+</div>
+
+<div class="w-[300px] h-[300px] bg-green-500 rounded-xl">
+    <i class="fa-solid fa-user text-4xl text-white text-center pl-10 mt-10"></i>
+    <h1  class="text-white text-2xl pl-10">IVR</h1>
+    <p class="text-white pl-6">
+        Customer service call centres made easy.</p>
+</div>
+
+<div class="w-[300px] h-[300px] bg-black rounded-xl">
+    <i class="fa-solid fa-sack-dollar text-4xl text-white text-center pl-10 mt-10"></i>
+    <h1  class="text-white text-2xl pl-10">USSD Short Codes</h1>
+    <p class="text-white pl-6 ">
+        Strengthen customer relationships and reach your global audience with special short codes.</p>
+</div>
+
+</div>
+
+<h1 class="mt-10 text-center text-2xl text-blue-500">Choose the best ADSL + Plant For Your</h1>
+<p class="text-center "> Strengthen customer relationships and reach your global audience with special short codes.</p>
+
+<div class="flex gap-10 pl-16" >
+    
+    <div class="w-[450px] h-[250px] bg-orange-500 rounded-2xl  border-green-500 "> 
+        <h1  class="text-center  text-white mt-10">ADSL + Package</h1>
+        <h1 class="text-center text-white text-5xl"> $30</h1>
+        <button class="text-white  pl-20 px-6 py-5 bg-green-500 rounded-xl mt-5 text-center ml-16">RECHANGE NOW</button>
+
+    </div>
+    <div class="w-[450px] h-[250px] bg-orange-500  rounded-2xl "> 
+        
+        <h1  class="text-center  text-white mt-10">Best</h1>
+        <h1 class="text-center text-white text-5xl"> $50</h1>
+        <button class="text-white  pl-20 px-6 py-5 bg-green-500 rounded-xl mt-5 text-center ml-16">RECHANGE NOW</button>
+
+    </div>
+
+    <div class="w-[450px] h-[250px] bg-orange-500  rounded-2xl ">
+        <h1  class="text-center  text-white mt-10">ADSL + Package</h1>
+        <h1 class="text-center text-white text-5xl"> $90</h1>
+        <button class="text-white  pl-20 px-6 py-5 bg-green-500 rounded-xl mt-5 text-center ml-16">RECHANGE NOW</button>
+    </div>
+</div>
+   
+
+<div>
+    <div class="w-[450px] h-[250px] bg-orange-500 rounded-2xl  border-green-500 "> 
+       <h1> Unlimited GB</h1>
+       <h1>20MBps </h1>
+       <h1>200 Mins </h1>
+       <h1>Valid for 30 Days</h1>
+       <h1>Super Speed</h1>
+
+    </div>
+</div>
+</body>
+
+</html>

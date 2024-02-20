@@ -1,0 +1,11 @@
+.box{
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+}
+.box-parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    gap: 30px;
+    justify-content: center;
+}

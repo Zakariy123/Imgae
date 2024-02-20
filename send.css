@@ -1,0 +1,35 @@
+.Send{
+    display: flex;
+    background-color: rgb(74, 221, 185);
+    border-radius: 6px;
+  height: 350px;
+  
+}
+.Address{
+    padding-left: 40px;
+    color: white;
+    
+    
+}
+.Message{
+    color:white;
+    padding-left: 40px;
+}
+.Message h1{
+color: blueviolet;
+font-size: 20px;
+}
+.Message p{
+    color: black;
+    margin-bottom: 20px;
+}
+.Message h5{
+    background-color: white;
+    color: blue;
+    height: 30px;
+}
+.Message button{
+    background-color:blueviolet;
+    color: white;
+    border: none;
+}

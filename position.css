@@ -1,0 +1,51 @@
+.box{
+    width: 250px;
+height: 60px;
+background-color: orange;
+position: absolute;
+right: -100px;
+top: 50px;
+border-radius: 40px;
+
+}
+.box2{
+    width: 150px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    bottom: 20px;  
+    right: 10px;
+    border-radius: 40px;
+}
+.box3{
+    width: 250px;
+height: 60px;
+background-color: orange;
+position: absolute;
+left: -100px;
+top: 50px;
+border-radius: 40px;
+
+}
+.box4{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 0, 170);
+    position: absolute;
+    bottom: 20px;  
+    left: 10px;
+    border-radius: 40px;
+}
+
+
+
+.box-parent{
+    position: relative;
+    width: 500px;
+    height: 500px;
+border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9hSBe5Zkrz0adu31yTLrGcyYS6T9FppiEg&usqp=CAU);
+    border: 2px blue solid;
+    }

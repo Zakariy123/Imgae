@@ -1,0 +1,215 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.Ex{
+    display: flex;
+    justify-content: space-between;
+}
+.h1 h1{
+    color: orangered;
+}
+.ul button{
+   
+    background-color: orangered;
+}
+.ul ul{
+    color: blue;
+    display: flex;
+    gap: 10px   
+    
+}
+.yaasir {
+    margin-top: 40px;
+    color: aliceblue;
+}
+.yaasir h1{
+    padding-left: 20px;
+}
+.yaasir p{
+    padding-left: 40px;
+}
+.yaasir img {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+.Explore{
+
+
+    display: flex;
+ background-color: green;
+ height:  400px;
+
+    /* background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://img.freepik.com/premium-photo/ernte_568701-7.jpg?size=626&ext=jpg"); 
+    background-repeat: no-repeat; */
+    
+/* width: 800px; */
+
+}
+.sec1 image{
+   width: 300px;
+   border-radius: 40px; 
+}
+.second{
+    display: flex;
+    
+    padding-top: 20p;
+}
+
+   
+.faarax{
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.faarax button{
+    background-color: orangered;
+    width: 120px;
+}
+
+.sec1{
+    height: 500px;
+    width: 600px;
+    padding-left: 20px;
+}
+.sec2 button{
+    background-color: orange;
+}
+
+
+
+.Blog h1{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: #204E52;
+    margin-bottom: 20px;
+
+}
+
+.Blog p{
+    color: black;
+    text-align: center;
+}
+    .maajid3{
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 280px);
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 80px;
+        margin-top: 0;
+        
+       
+    }
+
+    .rrr img{
+        width: 200px;
+        margin-top: 50px;
+      
+        height: 250px;
+       
+
+    }
+    .abukar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .abukar button{
+        background-color: orangered;
+        width: 80px;
+    }
+
+    .rrr h1{
+        padding-top: 30px;
+        font-size: 20px;
+        color:#204E52;
+        margin-bottom: 15px;
+    }
+
+     .rrr p{
+font-size: 12px;
+color: rgb(156, 148, 148);
+
+     }
+
+.rrr h4{
+    color:#204E52 ;
+    margin-top: 12px;
+    font-size:12px ;
+    text-decoration: underline;
+
+}
+ .cali{
+    display: flex;
+ }
+ 
+ .cali1{
+    padding-left:  80px;
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+ }
+ .cali2{
+    width: 300px;
+    height: 300px;
+ }
+   
+
+ .Blog h1{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: #204E52;
+    margin-bottom: 20px;
+}
+
+.Blog p{
+    color: black;
+    text-align: center;
+}
+    .maajid3{
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 280px);
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 80px;
+       
+    }
+
+    .rrr img{
+        width: 200px;
+        margin-top: 50px;
+      
+        height: 250px;
+       
+
+    }
+
+    .rrr h1{
+        padding-top: 30px;
+        font-size: 20px;
+        color:#204E52;
+        margin-bottom: 15px;
+    }
+
+     .rrr p{
+font-size: 12px;
+color: rgb(156, 148, 148);
+
+     }
+
+.rrr h4{
+    color:#204E52 ;
+    margin-top: 12px;
+    font-size:12px ;
+    text-decoration: underline;
+
+}

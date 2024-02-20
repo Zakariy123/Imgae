@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header ul{
+    
+ display: flex;
+    gap: 30px;
+    font-size: 20px;
+    list-style: none;
+    color: black;
+    padding: 20px 50px ;
+    
+}
+.header img {
+    width: 190px;
+    height: 90px;
+}
+.main{
+   
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+.main h1{
+    
+font-size: 72px;
+color: white;
+padding: 100px;
+}
+
+.main p{
+    
+    color:white;
+    font-size: 25px;
+    margin-top: -130px  ;
+    padding: 80px; 
+    padding-top: 20px;
+}

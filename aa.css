@@ -1,0 +1,475 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+.header{
+ display: flex;  
+ justify-content: space-between ; 
+ padding: 20px 50px ;
+}
+.header h1{
+font-size: 50px;
+margin: -15px;
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    list-style: none;
+}
+.LoginBtn{
+    background-color:  #204E52;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 40px;
+}
+.SingBtn{
+    background-color:transparent;
+    font-size: 22px;
+    padding: 12px 40px;
+    border-radius: 12px;
+    border: #204E52; 
+    color:   #204E52;
+    border: 2px  #204E52 solid ; 
+}
+.hero{
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://img.freepik.com/premium-photo/ernte_568701-7.jpg?size=626&ext=jpg"); 
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%  600px;
+    text-align: center;
+}
+.hero h1{
+padding-top: 20px;
+color:white;
+font-size: 50px;
+
+}
+.hero p{
+   font-size: 30px;
+   padding-top: 40px;
+    color: white;
+   margin-bottom: 50px;
+
+
+}
+.Get{
+    background-color:  #204E52;
+    color: white;
+    font-size: 22px;
+    border-radius: 12px;
+    border: none;
+    padding:12px 40px ;
+    margin-right: 20px; 
+}
+.Learn{
+    background-color:transparent;
+    font-size: 22px;
+    padding: 12px 40px;
+    border-radius: 12px;
+ border:  #204E52;
+    color: white;
+    border: 2px white solid ; 
+}
+
+.pession-left, .pession-right{
+    width: 600px;
+
+}
+.passion-parent{
+    margin: 50px 70px ;
+    display: flex;
+    justify-content: space-between;
+}
+.pession-left h1{
+font-size: 72px;
+color: #204E52;
+font-weight: bold;
+}
+.passion-Left p{
+    margin: 20px 2px;
+    font-size: 22px;
+}
+
+.passion-right img{
+    border-radius: 25px;
+    height: 544px;
+    width: 650px;
+}
+
+.passion-right{
+    position: relative;
+}
+
+
+.passion-right h1{
+    position: absolute;
+    bottom: -15px;
+    left: 150px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 30px;
+    background-color:white ;
+}
+
+.Service-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Service-title h1{
+    font-size: 70px;
+    color: #204E52;
+}
+.Service-title p{
+    margin: 10px 33px;
+    font-size: 16px;
+}
+
+.Service{
+height: 300px;
+width: 100%;
+background-color: white;
+color: #204E52;
+border-radius: 22px;
+text-align: center;
+box-shadow: 0px 0px 6px gray;
+}
+.Service i{
+    margin-top:50px ;
+    font-size: 90px;
+    color: black;
+    margin-bottom: 20px;
+}
+.Service-parent{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    justify-content: center;
+    gap: 50px;
+  
+    
+}
+
+
+.ur h1{
+    font-size: 80px;
+    margin-top: 100px;
+    text-align: center;
+    color: #204E52;
+}
+.ur p{
+    text-align: center;
+    color: black;
+}
+
+
+.ure{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+ 
+}
+
+
+.ura{
+    height: 300px;
+    width: 70%;
+    background-color: white;
+    color: #204E52;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0px 0px 6px gray;
+    }
+    .ura img{
+        width: 180px;
+        margin-top: 10px;
+        border-radius: 20px;
+       
+
+    }
+    .ure h1{
+        font-size: 14px;
+    }
+    .zaki{
+        background-repeat: no-repeat;
+        height: 600px;
+        background-size: 100%  600px;
+       
+        background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://img.freepik.com/premium-photo/ernte_568701-7.jpg?size=626&ext=jpg"); 
+    }
+    .zaki{
+        color: aliceblue;
+        font-size: 40px;
+
+    }
+   .SP{
+    color: blue;
+    font-size:12px ;
+    margin-left: 60%;
+
+    
+   }
+   .LoginBtn1{
+    background-color:  #204E52;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 40px;
+}
+.SingBtn2{
+    background-color:transparent;
+    font-size: 22px;
+    padding: 12px 40px;
+    border-radius: 12px;
+    border: #204E52; 
+    color:   white;
+    border: 2px  #204E52 solid ; 
+}
+
+.benefit-right{
+    width: 670px;
+    height: 590px;
+    background-color: #204E52;
+    border-radius: 20px;
+    color: white;
+}
+
+.benefit-left{
+    width: 500px;
+}
+
+.benefit-parent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.benefit-left h1{
+ font-size: 72px;   
+ color: #204E52;
+ margin-bottom: 20px;
+ margin-top: 100px;
+}
+
+.benefit-left button{
+    background-color: #204E52;
+    padding: 15px 50px ;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.icon-parent{
+    margin-left: 170px;
+    margin-top: 50px;
+    gap: 70px;
+    display: flex;
+}
+
+.number h1{
+    font-size: 80px;
+}
+.icon-parent i{
+    margin-top: 20px;
+    font-size: 60px;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #060d0e;
+}
+
+
+
+
+
+
+
+.Blog h1{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: #204E52;
+    margin-bottom: 20px;
+}
+
+.Blog p{
+    color: black;
+    text-align: center;
+}
+    .maajid3{
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 280px);
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 80px;
+       
+    }
+
+    .rrr img{
+        width: 200px;
+        margin-top: 50px;
+        border-radius: 10px;
+        height: 250px;
+       
+
+    }
+
+    .rrr h1{
+        padding-top: 30px;
+        font-size: 20px;
+        color:#204E52;
+        margin-bottom: 15px;
+    }
+
+     .rrr p{
+font-size: 12px;
+color: rgb(156, 148, 148);
+
+     }
+
+.rrr h4{
+    color:#204E52 ;
+    margin-top: 12px;
+    font-size:12px ;
+    text-decoration: underline;
+
+}
+
+
+.ts{
+    margin: 50px 2px ;
+    text-align: center;
+}
+.ts h1{
+    font-size: 80;
+    margin-top: 200px;
+    color: #204E52;
+}
+.ts p{
+    font-size: 20px;
+    margin: 20px 30px;
+
+}
+.card-parent{
+    margin: 90px 20px ;
+    display: grid;
+    grid-template-columns: 100px 900px 100px ;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 22px;
+    width: 100%;
+    height: 400px;
+    background-color: #1f4b4e;
+}
+
+.icon {
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 218, 218);
+    text-align: center;
+}
+
+.icon i{
+    margin-top: 20px;
+    font-size: 60px;
+ 
+}
+.review-parent img{
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+}
+.review-parent{
+    color: black;
+    display: flex;
+    margin: 40px 70px;
+    gap: 40px;
+}
+.text h1{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+.text i{
+color: orange;
+font-size: 30px;
+margin-bottom: 20px;
+}
+.text p{
+    color: white;
+    
+}
+
+
+.fw{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.final h1{
+    font-size: 30px;
+    color: white;
+   
+      
+    
+   
+}
+.final p{
+    color: white;
+    margin-bottom: 150px;
+   
+}
+
+.final i{
+    background-color: black;
+    border-radius: 370px;
+    font-size: 40px;
+    color:white;
+   margin-bottom: 30px;
+   
+}
+.f3 {
+    padding-top: 180px;
+    color: white;
+    margin-right: 180px;
+}
+.f3 h3{
+margin-bottom: 20px;
+}
+.f3 ul{
+    list-style: none;
+}
+.f2{
+    padding-top: 180px;
+    color: white;
+    margin-left: 580px;
+    
+}
+.f2 h3{
+    margin-bottom: 20px;
+ }
+ .f2 ul{
+    list-style: none;
+}
+
+
+   
