@@ -26,16 +26,18 @@
 .ul button{
     border-radius: 29px;
     width: 200px;
-
-    background-color: purple;
+color: beige;
+    background-color: rgb(0, 128, 26);
 }
 
 .HTS {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(" https://pbs.twimg.com/media/FF6AVaeWYAQwghg?format=jpg&name=900x900"); 
-    background-repeat: no-repeat;
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(" https://pbs.twimg.com/media/FF6AVaeWYAQwghg?format=jpg&name=900x900"); 
+    background-repeat: no-repeat; */
     height: 600px;
+    background-image: url("https://pbs.twimg.com/media/FF6AVaeWYAQwghg?format=jpg&name=900x900");
     background-size: 100%  600px;
     text-align: center;;
+    border-radius: 20px;
 }
 
 .T h1{
@@ -44,7 +46,7 @@
 }
 .T p{
     gap: 60px;
-    color: blue;
+    color: black;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
 }
